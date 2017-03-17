@@ -12,6 +12,8 @@ namespace Snake
         int mapHeight;
         char symb;
 
+        public static int counter = 0; // счетчик созданных экземпляров еды
+
         Random random = new Random();
 
         public FoodCreator(int mapWidth, int mapHeight, char symb)
@@ -25,6 +27,7 @@ namespace Snake
         {
             int x = random.Next(2, mapWidth - 2);
             int y = random.Next(2, mapHeight - 2);
+            counter++;  // увеличиваем счетчик каждый раз когда создается еда
             return new Point(x, y, symb);
         }
     }

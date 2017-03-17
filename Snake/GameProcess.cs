@@ -29,6 +29,7 @@ namespace Snake
                 if (walls.IsHit(snake) || snake.IsHitTail())
                 {
                     Messages.GameOver();
+                    Console.WriteLine("Создано {0} объектов FoodCreator", FoodCreator.counter);
                     break;
                 }
 
