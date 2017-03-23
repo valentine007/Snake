@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<results game="snake">
+  <gamer name="Распутин">
+    <rate>12</rate>
+    <date>25.11.16</date>
+  </gamer>
+  <gamer name="Igor">
+    <rate>132</rate>
+    <date>25.01.17</date>
+  </gamer>
+  <gamer name="Semen">
+    <rate>129</rate>
+    <date>05.02.17</date>
+  </gamer>
+  <gamer name="Ken">
+    <rate>312</rate>
+    <date>15.03.17</date>
+  </gamer>
+  <gamer name="as">
+    <rate>0</rate>
+    <date>17 березня 2017</date>
+  </gamer>
+</results>

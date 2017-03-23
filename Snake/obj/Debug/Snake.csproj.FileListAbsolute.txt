@@ -1,15 +1,27 @@
-D:\Valentine\Examination Project\Snake\Snake\bin\Debug\Snake.exe.config
-D:\Valentine\Examination Project\Snake\Snake\bin\Debug\Snake.exe
-D:\Valentine\Examination Project\Snake\Snake\bin\Debug\Snake.pdb
-D:\Valentine\Examination Project\Snake\Snake\obj\Debug\Snake.exe
-D:\Valentine\Examination Project\Snake\Snake\obj\Debug\Snake.pdb
-C:\Users\Валентин\Desktop\Snake\Snake\bin\Debug\Snake.exe.config
-C:\Users\Валентин\Desktop\Snake\Snake\obj\Debug\Snake.exe
-C:\Users\Валентин\Desktop\Snake\Snake\obj\Debug\Snake.pdb
-C:\Users\Валентин\Desktop\Snake\Snake\bin\Debug\Snake.exe
-C:\Users\Валентин\Desktop\Snake\Snake\bin\Debug\Snake.pdb
-D:\Valentine\Examination Project\Snake.git\Snake\bin\Debug\Snake.exe.config
-D:\Valentine\Examination Project\Snake.git\Snake\obj\Debug\Snake.exe
-D:\Valentine\Examination Project\Snake.git\Snake\obj\Debug\Snake.pdb
-D:\Valentine\Examination Project\Snake.git\Snake\bin\Debug\Snake.exe
-D:\Valentine\Examination Project\Snake.git\Snake\bin\Debug\Snake.pdb
+D:\-=PROJECT=-\EXAM\snake\snake\snake\bin\Debug\snake.exe.config
+D:\-=PROJECT=-\EXAM\snake\snake\snake\bin\Debug\snake.exe
+D:\-=PROJECT=-\EXAM\snake\snake\snake\bin\Debug\snake.pdb
+D:\-=PROJECT=-\EXAM\snake\snake\snake\obj\Debug\snake.exe
+D:\-=PROJECT=-\EXAM\snake\snake\snake\obj\Debug\snake.pdb
+H:\EXAM\snake\snake\snake\bin\Debug\snake.exe.config
+H:\EXAM\snake\snake\snake\obj\Debug\snake.exe
+H:\EXAM\snake\snake\snake\obj\Debug\snake.pdb
+D:\-=PROJECT=-\EXAM\snake\snake\snake\obj\Debug\snake.csprojResolveAssemblyReference.cache
+D:\-=PROJECT=-\EXAM\snake\snake1\snake\snake\bin\Debug\snake.exe.config
+D:\-=PROJECT=-\EXAM\snake\snake1\snake\snake\obj\Debug\snake.exe
+D:\-=PROJECT=-\EXAM\snake\snake1\snake\snake\obj\Debug\snake.pdb
+D:\-=PROJECT=-\EXAM\snake\snake1\snake\snake\bin\Debug\snake.exe
+D:\-=PROJECT=-\EXAM\snake\snake1\snake\snake\bin\Debug\snake.pdb
+D:\-=PROJECT=-\EXAM\snake\snake1\snake\snake\obj\Debug\snake.csprojResolveAssemblyReference.cache
+C:\Users\Валентин\Desktop\snake1\snake\snake\bin\Debug\snake.exe.config
+C:\Users\Валентин\Desktop\snake1\snake\snake\obj\Debug\snake.exe
+C:\Users\Валентин\Desktop\snake1\snake\snake\obj\Debug\snake.pdb
+C:\Users\Валентин\Desktop\snake1\snake\snake\bin\Debug\snake.exe
+C:\Users\Валентин\Desktop\snake1\snake\snake\bin\Debug\snake.pdb
+C:\Users\Валентин\Desktop\snake1\snake\snake\obj\Debug\snake.csprojResolveAssemblyReference.cache
+D:\Valentine\Examination Project\Snake.git\snake\bin\Debug\snake.exe.config
+D:\Valentine\Examination Project\Snake.git\snake\obj\Debug\snake.exe
+D:\Valentine\Examination Project\Snake.git\snake\obj\Debug\snake.pdb
+D:\Valentine\Examination Project\Snake.git\snake\bin\Debug\snake.exe
+D:\Valentine\Examination Project\Snake.git\snake\bin\Debug\snake.pdb
+D:\Valentine\Examination Project\Snake.git\snake\obj\Debug\snake.csprojResolveAssemblyReference.cache

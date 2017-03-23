@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-    class FoodCreator
+    class ToxicCreator
     {
         int mapWidth;
         int mapHeight;
@@ -14,14 +14,14 @@ namespace Snake
 
         Random random = new Random(DateTime.Now.Millisecond);
 
-        public FoodCreator(int mapWidth, int mapHeight, char symb)
+        public ToxicCreator(int mapWidth, int mapHeight, char symb)
         {
             this.mapWidth = mapWidth;
             this.mapHeight = mapHeight;
             this.symb = symb;
         }
 
-        public Point CreateFood()
+        public Point CreateToxic()
         {
             int x = random.Next(2, mapWidth - 2);
             int y = random.Next(2, mapHeight - 2);

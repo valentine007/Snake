@@ -10,12 +10,13 @@ namespace Snake
     {
         Direction direction;
 
-        public Snake (Point taile, int lenght, Direction _direction)
+
+        public Snake(Point taile, int lenght, Direction _direction)
         {
             direction = _direction;
             pList = new List<Point>();
 
-             for (int i = 0; i < lenght; i++)   // хвостовую точку сдвигаем в направлении direction на значение длины змейки
+            for (int i = 0; i < lenght; i++)   // хвостовую точку сдвигаем в направлении direction на значение длины змейки
             {
                 Point p = new Point(taile);
                 p.Move(i, direction);
@@ -31,7 +32,8 @@ namespace Snake
             pList.Add(head);
 
             tail.Clear();
-            head.Draw();
+ 
+            head.Draw(1);           // устанавливаем цвет символа змеи
         }
 
         public Point GetNextPoint()
@@ -65,13 +67,14 @@ namespace Snake
                 direction = Direction.UP;
         }
 
-        internal bool Eat( Point food)
+        internal bool Eat(Point food)
         {
             Point head = GetNextPoint();
             if (head.IsHit(food))
             {
                 food.symb = head.symb;
                 pList.Add(food);
+
                 return true;
             }
             else
@@ -79,6 +82,21 @@ namespace Snake
                 return false;
             }
         }
+        internal bool noEat(Point toxic)
+        {
+            Point head = GetNextPoint();
+            if (head.IsHit(toxic))
+            {
+                toxic.symb = head.symb;
+                pList.Remove(toxic);
 
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
+

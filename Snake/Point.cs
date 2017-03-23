@@ -11,6 +11,7 @@ namespace Snake
         public int x;
         public int y;
         public char symb;
+        public int step;
 
         public Point(int _x, int _y, char _symb)
         {
@@ -44,6 +45,8 @@ namespace Snake
             {
                 y = y + offset;
             }
+
+            step = step++;
         }
 
         public bool IsHit(Point p)
@@ -51,17 +54,43 @@ namespace Snake
             return p.x == this.x && p.y == this.y;
         }
 
-        public void Draw()
+        public void Draw(int color)
         {
             Console.SetCursorPosition(x, y);
+            if (color == 0)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGray;   // устанавливаем цвет символа змеи
+                Console.BackgroundColor = ConsoleColor.Black;     // устанавливаем цвет поля рамки
+                //Console.ResetColor(); // сбрасываем в стандартный
+            }
+            if (color == 1)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;   // устанавливаем цвет символа змеи
+                Console.BackgroundColor = ConsoleColor.Black;     // устанавливаем цвет поля рамки
+            }
+            if (color == 2)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;   // устанавливаем цвет символа еды
+                Console.BackgroundColor = ConsoleColor.Black;     // устанавливаем цвет поля рамки
+            }
+            if (color == 3)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;   // устанавливаем цвет символа яда
+                Console.BackgroundColor = ConsoleColor.Black;     // устанавливаем цвет поля рамки
+            }
+            if (color == 4)
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;   // устанавливаем цвет символа рамки
+                Console.BackgroundColor = ConsoleColor.Blue;     // устанавливаем цвет поля рамки
+            }
             Console.Write(symb);
         }
 
         public void Clear()
         {
             symb = ' ';
-            Draw();
-        }
+            Draw(0);
+         }
 
         public override string ToString()
         {
@@ -69,3 +98,4 @@ namespace Snake
         }
     }
 }
+
